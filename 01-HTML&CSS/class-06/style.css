@@ -1,0 +1,44 @@
+/* *{
+    color: red;
+}
+
+h1 , p {
+    text-align: center;
+}
+
+.para{
+    color: yellow;
+}
+
+#hello{
+    background-color: black;
+}
+
+#hello > li{
+    color: white;
+} */
+
+/* body{
+    color: blue;
+}
+
+#head{
+    text-align: end;
+}
+.head-class{
+    text-align: start  !important;
+};
+h1{
+    text-align: center;
+} */
+
+
+body{
+    background-color: #f510de95;
+    color: #000000;
+    /* opacity: 0.1; */
+}
+
+div > h1{
+    color: purple;
+}
