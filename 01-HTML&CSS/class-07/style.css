@@ -1,0 +1,43 @@
+
+body{
+    background-color: #23e5db;
+    color: #ffffff;
+}
+
+h1{
+    /* font-size: 40px; */
+    /* font-weight: 700; */
+    /* font-style: oblique; */
+    /* text-transform: capitalize; */
+    /* text-decoration: blink; */
+    text-align: end;
+}
+p{
+    /* letter-spacing: 12px */
+    /* word-spacing: 12px;
+    text-align:justify; */
+    /* text-indent: 20px;
+    text-shadow: 1px 1px 0px #ff0000; */
+    color: black;
+}
+/* p:first-line{
+    font-size: 50px;
+    color: red;
+} */
+
+button{
+    border: 0px;
+}
+/* button:hover{
+    background-color: red;
+    color: white;
+} */
+button:active{
+    background-color: red;
+    color: white;
+}
+
+input:focus{
+    background-color: red;
+    color: white;
+}

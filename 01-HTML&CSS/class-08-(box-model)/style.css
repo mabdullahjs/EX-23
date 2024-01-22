@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    /* border: 3px solid black; */
+    /* padding: 40px; */
+    /* padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px; */
+    /* padding: 10px 20px 5px 10px; */
+    /* margin: 40px 20px 10px; */
+    /* width: 150px; */
+    height: 150px;
+    margin: 50px;
+    overflow: hidden;
+    /* border-width: 4px;
+    border-color: brown;
+    border-style: solid; */
+    border: 4px dotted brown;
+}
+
+img{
+    display: inline;
+    margin: 0 auto;
+}
