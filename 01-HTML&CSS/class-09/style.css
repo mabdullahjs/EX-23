@@ -1,0 +1,104 @@
+/* @font-face {
+    font-family: 'abdullah';
+    src: url('./fonts/Poppins-Black.ttf');
+}
+*{
+    font-family: abdullah
+} */
+
+/* inline
+block
+inline block
+none */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+h1{
+    width: 200px;
+    display: inline;
+}
+a{
+    width: 200px;
+    display: inline-block;
+}
+img{
+    width: 100px;
+    display: none;
+    visibility: visible;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+/* ul{
+    text-align: end;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #ff6868;
+} */
+
+
+div {
+    border: 5px solid black;
+    margin: 30px;
+    min-width: 500px;
+    max-width: 600px;
+    height: 200px;
+    /* border-radius: 20px; */
+    /* border-radius: 11% 89% 26% 74% / 79% 42% 58% 21% ; */
+    /* border-radius: 15px 20px 15px 20px; */
+    border-radius: 10px;
+
+}
+img{
+    display: block;
+    margin: 10px auto;
+}
+h1{
+    /* display: inline; */
+    /* text-align: center; */
+}
