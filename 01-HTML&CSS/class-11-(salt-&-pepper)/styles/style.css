@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* navbar started */
+.nav-items {
+    font-size: 2rem;
+}
+
+.header-logo {
+    width: 165px;
+}
+#franchise-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+#order-btn{
+    background-color: #ed1c24;
+    border: 0px;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+/* navbar ended */

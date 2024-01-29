@@ -1,0 +1,38 @@
+/* justify content
+align items
+align-content
+flex-direction
+flex-wrap
+row-gap
+column-gap
+gap */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    /* height: 400px; */
+    /* padding: 30px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* align-content: end; */
+    gap: 20px;
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    /* flex-direction: row-reverse; */
+}
+
+.box {
+    border: 1px solid red;
+    /* width: 100px; */
+    height: 100px;
+    background-color: blueviolet;
+    flex-basis: 40%;
+}
