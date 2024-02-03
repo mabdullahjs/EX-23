@@ -1,0 +1,27 @@
+/* :root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --red: #ff000d;
+}
+
+
+h1 {
+    color: var(--blue);
+}
+
+table{
+    color: var(--red);
+}
+
+ul{
+    color: var(--red);
+}
+p{
+    background-color: var(--red);
+    color: white;
+} */
+
+
+.custom-green{
+    background-color: green;
+}
