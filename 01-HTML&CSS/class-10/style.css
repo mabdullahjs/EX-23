@@ -1,0 +1,93 @@
+/* #borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(./assets/border.png) 10 round;
+} */
+
+/* div{
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px 12px red;
+} */
+
+/* ol{
+    list-style-type: lower-alpha;
+} */
+/* ul {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    list-style: inside circle;
+} */
+
+
+/* table,
+th,
+td {
+    border: 1px solid black;
+} */
+/* inheritance and css */
+
+/* table{
+    width: 700px;
+    padding: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightblue;
+    empty-cells: inherit;
+    border-spacing: 20px;
+    border-collapse: collapse;
+
+}
+table:hover{
+    background-color: rgb(113, 200, 229);
+} */
+
+/* 
+button, p{
+    cursor: help;
+} */
+
+
+/* relative
+absolute
+fixed
+static */
+
+.container{
+    width: 300px;
+    height: 200vh;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+#box-1{
+    background-color: red;
+    position: relative;
+    /* top: 10px; */
+    left: 100px;
+    /* right: 20px; */
+}
+#box-2{
+    background-color: green;
+    position: absolute;
+    /* top: 30px; */
+    bottom: 10px;
+    right: 10px;
+
+}
+#box-3{
+    background-color: blue;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 4;
+}
+#box-4{
+    background-color: red;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 5;
+}

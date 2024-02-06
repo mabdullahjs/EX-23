@@ -1,0 +1,77 @@
+/* utily classes */
+
+
+
+/* flex classes start */
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 20px;
+}
+/* flex classes end */
+
+.text-center{
+    text-align: center;
+}
+
+
+.m-1{
+    margin: 10px;
+}
+.m-2{
+    margin: 20px;
+}
+.m-3{
+    margin: 30px;
+}
+.m-4{
+    margin: 40px;
+}
+.m-5{
+    margin: 50px;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.mt-4{
+    margin-top: 40px;
+}
+.mt-5{
+    margin-top: 50px;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
