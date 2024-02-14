@@ -120,12 +120,11 @@
 
 
 
-var firstName = prompt('enter your firstname');
-var lastName = prompt('enter your lastname');
-var age = prompt('enter your age');
+// var firstName = prompt('enter your firstname');
+// var lastName = prompt('enter your lastname');
+// var age = prompt('enter your age');
 
-console.log('my name is ' + firstName + " " + lastName + " and my age is " + age )
-
+// console.log('my name is ' + firstName + " " + lastName + " and my age is " + age )
 
 
 
