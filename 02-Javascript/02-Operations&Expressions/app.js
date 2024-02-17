@@ -64,9 +64,16 @@
 // <
 // ==
 // ===
-// !=
+// != data type check nahi kraiga!
+// !== data type check kraiga!
 // >=
 // <=
+
+// var isUser = 10 !== 10;
+// console.log(isUser);
+
+
+
 
 
 // var comparision = 10 > 5;
@@ -74,22 +81,28 @@
 // var comparision = 80 >= 79;
 // var comparision = 80 == 80;
 // var comparision = 80 === '80';
-var comparision = 80 !== '80';
+// var comparision = 80 !== '80';
 
 
 
 // console.log(comparision);
-document.write('<h1 style="text-align: center;">hello world</h1>')
-document.write(10 + 20)
+// document.write('<h1 style="text-align: center;">hello world</h1>')
+// document.write(10 + 20)
 
 
 
 //logical Operator
 
-//&&
-//||
-//!
+//&& == and
+//|| == OR
 
+
+// var isAvailable = 10 > 5 && 5 < 4 && 10 > 2 && 10 <= 10 ;
+
+// var isAvailable = 10 >= 10 || 10 > 5;
+
+
+// console.log(isAvailable);
 
 
 
