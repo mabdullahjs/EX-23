@@ -117,6 +117,28 @@
 
 
 
+// var num1 = +prompt('enter first number');
+// var num2 = +prompt('enter second number');
+// var symbol = prompt('enter any airthmatic operator');
+
+// function calculator(num1 , num2 , symbol){
+//     if(symbol != '+' && symbol != '-' && symbol != '*' && symbol != '/'){
+//         console.log('calculation nahi hogi maalik!');
+//     }else{
+//         console.log('kro bhai perform');
+//     }
+// }
+
+// calculator(num1 , num2 , symbol)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -176,18 +198,94 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 // var num = null;
 // console.log(num);
+
+
+
+
+
+
+
+// function greetuser(username) {
+//     return 'hello ' + username
+
+// }
+
+// var myname = greetuser('abdullah');
+// console.log(myname);
+
+
+// var username = abdullah;
+// console.log(username);
+
+
+
+
+
+// var h1 = document.querySelector(".head");
+// h1.innerHTML = 'changed through javascript'
+// console.log(h1.innerHTML)
+
+// var myname = 'abdullah'
+// function greetUser (){
+//     console.log('hello abdullah ' + myname)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var h1 = document.querySelector('h1');
+
+// function changedhead(){
+//     if(h1.innerHTML === 'Hello Functions'){
+//         h1.innerHTML = 'changed through js'
+//     }else{
+//         h1.innerHTML = 'Hello Functions'
+//     }
+// }
+
+
+
+
+//Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise
+
+// var character = prompt('enter any character');
+
+// if(character.length > 1){
+//     console.log('aik deda bhai!! agaa mat bhaag');
+// }else if(character === 'a' || character === 'e' || character === 'i' || character === 'o' || character === 'u'){
+//     console.log('han maalik vowel haa')
+// }else{
+//     console.log('vovel nahi ha!')
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
