@@ -289,7 +289,12 @@
 
 
 
+var head = document.querySelector('.head');
 
+
+function changeHead(){
+    head.innerHTML = 'abc'
+}
 
 
 
