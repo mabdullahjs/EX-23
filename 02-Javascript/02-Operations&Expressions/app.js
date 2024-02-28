@@ -110,3 +110,82 @@
 
 
 
+
+
+
+
+
+
+// ++num pre increment
+// num++ post increment
+
+// var num = 10;
+// // console.log(++num);
+// console.log(num++);
+// console.log(++num);
+
+
+
+
+
+
+// var num = 10;
+// // console.log(++num);
+// console.log(num++);
+// console.log(++num);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var num = 10;
+// var calculation = ++num + ++num + num++ + ++num;
+
+// // 11 + 12 + 12 + 14
+
+// console.log(calculation)
+
+
+// var calculation = ++num + --num + num-- + ++num + num++ +num-- + ++num;
+
+// //11 + 10 + 10 + 10 + 10 + 11 + 11
+
+// console.log(calculation , 11 + 10 + 10 + 10 + 10 + 11 + 11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
