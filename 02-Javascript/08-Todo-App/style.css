@@ -1,0 +1,10 @@
+#delete-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+#delete-btn:hover{
+    background-color: rgb(243, 23, 23);
+}
