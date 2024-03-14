@@ -3,7 +3,7 @@
 // console.log(fruits);
 
 
-// const num = 9.2;
+// const num = 9.9;
 // console.log('round===>', Math.round(num));
 // console.log('ceil ===> ', Math.ceil(num));
 // console.log('floor ===> ', Math.floor(num));
@@ -16,6 +16,7 @@
 //method
 //function
 
+// console.log(Math.ceil(Math.random()*10));
 // console.log(Math.ceil(Math.random()*5));
 // console.log(Math.ceil(Math.random()*100));
 
