@@ -192,7 +192,7 @@
 
 
 
-
+// console.log(nestedData[1].subcategories[1].products[0].item);
 
 
 
@@ -203,6 +203,40 @@
 //dress
 //xps20
 //price: 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const obj = {
+//     username: 'abdullah',
+//     age: 20,
+//     isLoggedIn: false,
+//     days: ['mon', 'tues', 'wed'],
+//     greetUser: function () {
+//         console.log('hello world');
+//         console.log('hello world' , this.username);
+//     }
+// }
+// console.log(obj.days[2]);
+
+
+
+
+
+
 
 
 
