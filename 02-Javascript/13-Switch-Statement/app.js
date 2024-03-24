@@ -266,7 +266,7 @@
 
 
 
-const p = document.querySelector('p');
+// const p = document.querySelector('p');
 
 
 // let students = [
@@ -279,6 +279,55 @@ const p = document.querySelector('p');
 //     console.log(students[i].name);
 //     // p.innerHTML += students[i].name
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const timeout = setTimeout(function (){
+//     console.log('hello world');
+// } , 2500)
+// setTimeout(function (){
+//     console.log('hello world without variable');
+// } , 2500)
+
+// function clears(){
+//     clearTimeout(timeout)
+// }
+
+const secondSpan = document.querySelector('#seconds')
+let second = 0
+const interval = setInterval(function (){
+    second += 1;
+    secondSpan.innerHTML = second
+    console.log(second);
+} , 1000)
+
+
+function clears(){
+    clearInterval(interval)
+}
+
+
+
 
 
 

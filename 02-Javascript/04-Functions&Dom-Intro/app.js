@@ -289,12 +289,89 @@
 
 
 
-var head = document.querySelector('.head');
+// var head = document.querySelector('.head');
 
 
-function changeHead(){
-    head.innerHTML = 'abc'
-}
+// function changeHead(){
+//     head.innerHTML = 'abc'
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//nestd functions
+
+// function abc(){
+//     let a = 10;
+//     function efg(){
+//         let b = 20;
+//         console.log(a);
+//     }
+//     function hij(){
+//         console.log(b);
+//     }
+//     efg()
+//     hij()
+// }
+// abc()
+
+
+
+
+
+
+
+
+//closures
+
+// function abc(){
+//     let a = 10;
+//     function efg(){
+//         console.log(a);
+//     }
+//     return efg
+// }
+// // let func = abc();
+// // func();
+// abc()()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// IIFE
+//Immediately Invoked Function Expression
+
+// (function abc(names){
+//     console.log('hello world' , names);
+// })('abdullah')
+
 
 
 
