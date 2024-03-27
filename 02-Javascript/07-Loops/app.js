@@ -299,6 +299,92 @@
 
 
 
+// const howManyTimes = +prompt('enter your number')
+// const str = '****';
+// for(let i = 0; i < howManyTimes; i++){
+//     console.log(str)
+// }
+
+
+
+
+
+
+
+
+
+
+// let str = '';
+
+// for (let i = 0; i < 20; i++) {
+//     str += '*';
+//     console.log(str);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const num = 10;
+// let str = '';
+
+// for (let i = num; i >= 1; i--) {
+//     for(let j = 1; j <= i; j++){
+//         str += '*'
+//     }
+//     console.log(str);
+//     str = ''
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
