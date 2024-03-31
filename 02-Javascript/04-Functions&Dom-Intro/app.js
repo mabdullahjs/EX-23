@@ -317,6 +317,7 @@
 
 
 //nestd functions
+//lexical scoping
 
 // function abc(){
 //     let a = 10;
