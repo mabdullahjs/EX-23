@@ -264,14 +264,14 @@ const obj = {
     username: 'abdullah',
     age: 20,
     isLoggedIn: true,
-    moreUser:{
-        names:'usman'
+    moreUser: {
+        names: 'usman'
     }
 }
 
 // // console.log(obj.age)
 // const {username , age , isLoggedIn, moreUser , fathername = 'ajmal'} = obj;
-const {username , ...rest} = obj;
+const { username, ...rest } = obj;
 // const {names} = moreUser
 console.log(rest);
 
@@ -294,17 +294,43 @@ console.log(rest);
 
 
 
+//normal function
+//arrow function
+
+// greetUser('abdullah')
+// function greetUser(username){
+//     console.log(`hello ${username}`)
+// }
 
 
 
 
+// const greetUser = (username)=>{
+//     console.log(username);
+// }
+
+// const greetUser = ()=> {
+//     return 'abdullah'
+// }
+
+// const greetUser = ()=> 'abdullah'
+// const greetUser = ()=> (
+//     'abdullah'
+// )
+// console.log(greetUser());
+
+// single line ma scope khola bina jo bhi likhonga wo return hojayge.
+
+//arrow function or normal function ma hoisting ka farq ha.
+
+//agar appka pass aik parameter haa to round bracket lagana ki zaroorat nahi ha.
 
 
 
 
+// const greetUser = username => 'hello ' + username;
 
-
-
+// console.log(greetUser('abdullah'));
 
 
 
