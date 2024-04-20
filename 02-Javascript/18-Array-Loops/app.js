@@ -158,6 +158,73 @@ const products = [
 
 
 
+// const array1 = [1, 2, 3, 4];
+// const sum = array1.reduce(function (accumulator , currentval){
+//     return accumulator + currentval
+// } , 0);
+
+
+// console.log(sum);
+
+
+
+
+
+
+// const totalprice = products.reduce((acc , currentval)=>{
+//     return acc + currentval.price
+// } , 0)
+
+// console.log(Math.round(totalprice))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//regex
+
+const form = document.querySelector('#form');
+const email = document.querySelector('#email');
+const age = document.querySelector('#age');
+const username = document.querySelector('#username');
+form.addEventListener('submit' , function (event){
+    event.preventDefault();
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(emailRegex.test(email.value)){
+        console.log(email.value);
+    }else{
+        console.log('bhai email to likhde');
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
