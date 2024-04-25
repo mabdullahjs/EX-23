@@ -218,16 +218,62 @@
 
 
 
-const city = 'sdfdsffsd';
+//http://api.weatherapi.com/v1/current.json?key=b4db485d7c4c485fa6d84351232508&q=${city}
 
-//weather app
 
-axios(`http://api.weatherapi.com/v1/current.json?key=<apikey>&q=${city}`)
-.then((res)=>{
-    console.log(res.data);
-}).catch((err)=>{
-    console.log(err);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const form = document.querySelector('#form');
+const city = document.querySelector('#city');
+const div = document.querySelector('div');
+
+form.addEventListener('submit' , (event)=>{
+    event.preventDefault();
+
+    //get weather
+    axios(`http://api.weatherapi.com/v1/current.json?key=b4db485d7c4c485fa6d84351232508&q=${city.value}`)
+    .then((res)=>{
+        console.log(res.data);
+        div.innerHTML = `
+        <h1>City: ${res.data.location.name}</h1>
+        <h1>Country: ${res.data.location.country}</h1>
+        <h1>State: ${res.data.location.region}</h1>
+        <h1>Temperature: ${res.data.current.temp_c}°</h1>
+        <h1>Temperature: ${res.data.current.temp_c}°</h1>
+        <img src="${res.data.current.condition.icon}" alt="icon">
+        
+        `
+    }).catch((err)=>{
+        console.log(err)
+    })
+
+    //empty form
+    city.value = '';
 })
+
+
+
+
 
 
 
